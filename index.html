@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="#">
+        <title>Adivina el número</title>
+    </head>
+        
+    <body>
+        <div class="container">
+            <h1 class="page-title"></h1>            
+
+            <div class="logo">
+                <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Ilustra%C3%A7%C3%A3o-c%C3%A9rebro+1.png" class="cerebro" alt="logo cerebro">
+
+                <div class="texto">
+                    <h1></h1>
+                    <p class="texto-parrafo"></p>
+                </div>
+            </div>
+
+            <div class="espacio-number">
+                <input class="numero" type="number" id="valor-usuario" min="1" max="20">
+            </div>
+
+            <div class="botones">
+                <button onclick="validarIntento();" class="boton">Intentar</button>
+                <button onclick="reiniciarJuego();" class="boton" id="reiniciar" disabled>Nuevo Juego</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

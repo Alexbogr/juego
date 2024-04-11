@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+}
+
+*{
+    background-attachment: fixed;
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Robo Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title{
+    color: whitesmoke;
+    margin: 0 0 20px;
+    font-size: 250%;
+    padding: 10px;
+}
+
+.cerebro {
+    height: 70%;
+    width: 70%;
+}
+
+.texto-parrafo{
+    font-size: 100%;
+    margin: 10px;
+    padding: 30px;
+    color: whitesmoke;
+}
+
+.espacio-number {
+    margin: 10px;
+}
+
+.numero{
+    text-align: center;
+    font-size: 100%;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin: 20px;
+    padding: 20px;
+}
+
+.boton{
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+/* body > img{
+    margin: 10%vh;
+} */
+  
